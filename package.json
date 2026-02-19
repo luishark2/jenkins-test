@@ -1,17 +1,17 @@
 {
   "name": "jenkins-test",
   "version": "1.0.0",
-  "description":"",
+  "description": "",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
-  "dependecies": {},
-  "devDependecies": {
-    "mocha": "^5.2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC"
