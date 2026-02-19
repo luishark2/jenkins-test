@@ -1,14 +1,16 @@
-const sum = require('../');
 const assert = require('assert');
+const sum = require('../index');
 
 describe('Sum', () => {
   it('should handle positive numbers', () => {
-    asser.equals(sum(3, 5), 8);
+    assert.equal(sum(2, 3), 5);
   });
+
   it('should handle negative numbers', () => {
-    asser.equals(sum(3, -5), -2);
+    assert.equal(sum(-2, -3), -5);
   });
+
   it('should handle decimals', () => {
-    asser.equals(sum(3.5, 7.1), 10.6);
+    assert.equal(sum(2.5, 3.5), 6);
   });
 });
