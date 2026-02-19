@@ -11,4 +11,4 @@ describe('Sum', () => {
   it('should handle decimals', () => {
     asser.equals(sum(3.5, 7.1), 10.6);
   });
-)};
+});
